@@ -59,7 +59,7 @@ function idInvalidCardCompanies(invalidArr) {
         break;
     }
   })
-  return invalidArr.length > 0 ? [...new Set(invalidCompanies)] : 'Company not found';
+  return invalidArr.length > 0 ? invalidCompanies : 'Company not found';
 }
 
 
